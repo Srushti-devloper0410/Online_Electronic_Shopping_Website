@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <h2>Your Cart&Billing</h2>
+    <table border="1" width="600">
+        <thead>
+            <tr>
+                <th><b>Product</b></th>
+                <th><b>Price</b></th>
+                <th><b>Quantity</b></th>
+                <th><b>Total</b></th>
+                <th><b>Action</b></th>
+            </tr>
+        </thead>
+        <tbody id="cartTable"></tbody>
+    </table>
+    <div class="receipt">
+    <h2>Billing receipt</h2>
+    <label>Customer_id:</label>
+    <input type="text" id="cid"><br><br>
+    <label>Customer_name:</label>
+    <input type="text" id="cname"><br><br>
+    <label>Date:</label>
+    <input type="date" id="date"><br><br>
+    <hr>
+    <p><b>Subtotal:Rs:<span id="subtotal">0</span></b></p>
+    <p><b>GST(5%):Rs:<span id="gst">0</span></b></p>
+    <p><b>Final Amount:Rs:<span id="final">0</span></b></p>
+    <button onclick="window.print()">Print Receipt</button>
+    <br><br>
+    </div>
+    <div class="logout-center">
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

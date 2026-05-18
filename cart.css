@@ -1,0 +1,47 @@
+body{
+    background-color:#f6f0ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1rem;
+    color:maroon;
+}
+
+table{
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+h2{
+    background-color: blue;
+    color:#f6f0ff;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.receipt{
+    width:300px;
+    margin:20px auto;
+    border:1px solid black;
+    padding:20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.logout-btn{
+    background-color: red;
+    color: white;
+    padding:8px 15px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.logout-center{
+    text-align: center;
+}

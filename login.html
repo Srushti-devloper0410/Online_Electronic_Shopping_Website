@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+    <header>
+    <h1>RENUKA&nbsp;&nbsp;&nbsp;ENTERPRISES</h1>
+    <h3>Address:Hatture vasati,Solapur..</h3>
+    <img src="icon.png" alt="icon">
+    </header>
+    <div class="d">
+        <form onsubmit="return login()">
+            <h2> Welcome to My Profile
+                please log in page first..!! </h2>
+        <div>
+        <label><b>Name:</b></label>
+        <input type="text" id="username" oninput="return onlyAlphabets(this)" placeholder="Enter your name" required><br><br>
+        <label><b> E-mail:</b></label>
+        <input type="email" placeholder="Enter your mail" required><br><br>
+        <label> <b>Password: </b></label>
+        <input type="password" id="password" placeholder="Enter your valid password" required><br><br>
+        <label><b> Phone number:</b></label>
+        <input type="number" oninput="this.value = this.value.slice(0, 10)" placeholder="Enter valid 10 digit number"><br><br>
+        </div>
+        <footer>
+        <button type="submit"> Log In </button>
+        <h4>Contact number:7972954288</h4>
+        <p> They provide Electronic Machines to the customers,like Mobile Phones,Washing Machines and Many more..!!</p>
+        <h3>Opening Time:9:00AM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closing Time:10:00PM</h3>
+        </footer>
+        
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

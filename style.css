@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(166, 226, 206);
+    color:brown;
+}
+
+
+
+.product-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:25px;
+    flex-wrap: wrap;
+    margin:50px;
+}
+
+.product-card{
+    border:1px solid gray;
+    padding:10px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.product-card img{
+    width:200px;
+    height:150px;
+}
+
+h1{
+    text-align: center;
+    background-color: blue;
+    color:white;
+}
+
