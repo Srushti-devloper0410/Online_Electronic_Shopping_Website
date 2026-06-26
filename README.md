@@ -1,5 +1,9 @@
 # Online Shopping Website
 
+## Live Demo
+ Site is live at https://srushti-devloper0410.github.io/Online_Electronic_Shopping_Website/
+
+
 ## Description
 
 A frontend online shopping website built using HTML, CSS, and JavaScript. The project provides a user-friendly shopping interface with product displays, navigation, and interactive website features.
